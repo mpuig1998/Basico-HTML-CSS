@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="menu-item">
+                <a><span><img src="ICO\menu.png"></span></a>
+                <ul class="submenu">
+                    <li><a class="list" href="#inicio">Inicio</a></li>
+                    <li><a class="list" href="#servicios">Servicios</a></li>
+                    <li><a class="list" href="#contacto">Contacto</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <header><a>Fenomenal</a></header>
+
+    <main>
+        <!--Imagen de inicio-->
+        <div class="inicio" id="inicio"><div class="tu_foto" href="#contacto"></div></div>
+
+        <!--Cards servicios-->
+        <div class="servicios" id="servicios">
+        <!--Referencia card-->            
+            <div class="card_1">
+                <a>Google Fonts</a>
+                <hr>
+                <div class="card_img"><img src="IMG\FONTS.png"></div>
+                <div class="btn">
+                    <button class="btn_1" onclick="window.location.href='https://fonts.google.com/'">
+                        <a>Link</a>
+                    </button>
+                </div>
+            </div>
+
+        <!--Resto de cards-->
+            <div class="card_2">
+                <a>Devsnap</a>
+                <hr>
+                <div class="card_img"> <img src="IMG\DEV.png"></div>
+                <div class="btn">
+                    <button onclick="window.location.href='https://devsnap.me/'">
+                        <a>Link</a>
+                    </button>
+            </div>
+            </div>
+            <div class="card_3">
+                <a>Bootstrap</a>
+                <hr>
+                <div class="card_img"><img src="IMG\BOOTSTRAP.png"></div>
+                <div class="btn">
+                    <button onclick="window.location.href='https://getbootstrap.com/'">
+                        <a>Link</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card_4">
+                <a>UNPKG</a>
+                <hr>
+                <div class="card_img"><img src="IMG\UNPKG.png"></div>
+                <div class="btn">
+                    <button onclick="window.location.href='https://unpkg.com/'">
+                        <a>Link</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card_5">
+                <a>W3Schools</a>
+                <hr>
+                <div class="card_img"><img src="IMG\W3S.png"></div>
+                <div class="btn">
+                    <button onclick="window.location.href='https://www.w3schools.com/'">
+                        <a>Link</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!--Formulario-->
+        <div class="contacto" id="contacto">
+            <div class="formulario">
+                <form action="php.php" method="post">
+                    <a>Contacto</a>
+                    <hr>
+
+                    <label for="nombre">Nombre</label>
+                    <p><input type="text" id="nombre" name="nombre" placeholder="Nombre" required></p>
+
+                    <label for="email">Correo electrónico</label>
+                    <p><input type="email" id="email" name="email" placeholder="correo@electronico.com" required></p>
+
+                    <label for="numero">Numero</label>
+                    <p><input type="num" id="numero" name="numero" placeholder="+34 000 000 000" required></p>
+
+                    <label for="mensaje">Mensaje</label>
+                    <p><textarea id="mensaje" name="mensaje" rows="4"></textarea></p>
+
+                    <div class="btn"><button type="submit">Enviar</button></div>
+                </form>
+            </div>
+        </div>        
+
+
+
+    </main>
+
+    <footer><a href="https://es.wikipedia.org/wiki/ARPANET" class="ftr">ARPANET</a></footer>
+
+</body>
+</html>

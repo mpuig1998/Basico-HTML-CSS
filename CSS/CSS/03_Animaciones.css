@@ -1,0 +1,174 @@
+body{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.734);
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.195);
+  margin-bottom: 1px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;  
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+
+.menu a:hover {
+    background-color: #555;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    list-style: none;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.submenu li a {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+.submenu li a:hover {
+    background-color: #555;
+}
+
+body{
+    padding: 5px;
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.195); 
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;  
+}
+
+div{
+  margin: 50px 120px 50px 120px;
+}
+footer{
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.195);  
+}
+
+.container{
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.195);    
+}
+
+.container{
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.195);
+    margin: 50px 120px 50px 120px;    
+}
+.links{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.195);
+    border-radius: 20px;
+}
+
+.link{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(43, 226, 49);
+  animation: mover 2s ease-in-out infinite alternate;
+}
+
+@keyframes mover {
+  from { transform: translateX(0); }
+  to   { transform: translateX(200px); }
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  border: 6px solid #ddd;
+  border-top-color: rgb(225, 214, 65);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg);}
+}    
+  
+.box_1 {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  transition: width 0.3s, height 0.3s;
+  cursor: pointer;
+}
+
+.box_1:hover {
+  width: 200px; 
+  height: 200px;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  transition: background 0.3s, transform 0.3s;
+  cursor:pointer;
+}
+
+.btn:hover {
+  background: rgb(204, 255, 0);
+  transform: scale(1.1);
+}
+
+.rectangle {
+  width: 550px;
+  height: 80px;
+  background: #2A7B9B;
+  background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+

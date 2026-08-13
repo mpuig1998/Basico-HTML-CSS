@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Archivos</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        section { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="..\index.html">INICIO</a>  
+        <a href="1_Estructura.html">ESTRUCTURA</a>
+        <a href="2_Elementos.html">ELEMENTOS</a>
+        <a href="3_Archivos.html">ARCHIVOS</a>
+        <a href="4_Formularios.html">FORMULARIOS</a>
+        <a href="5_Metadatos.html">METADATOS</a>
+        <a href="6_Caracteres.html">CARACTERES</a>              
+    </nav>
+<header>
+    <h1>Archivos en web</h1>
+</header>
+
+<section>
+    <h2>Inserción de imagenes</h2> 
+    <hr/>   
+    <!--Imagenes-->
+    <h3>Imagen simple básica</h3>
+    <img src="..\IMG\Amarillo.png"  width="200">
+
+
+    <h3>Imagen dentro de un enlace</h3>
+    <a href=" "> <img src="..\IMG\Azul.png"  width="200"> </a>
+
+
+    <figure>
+    <h3>Imagen con descripción usando figure</h3>        
+        <img src="..\IMG\Morado.png"  alt="Imagen con descripción" width="250">
+        <figcaption>Descripción de la imagen</figcaption>
+    </figure>
+
+<section>
+    <h2>Inserción de audios</h2> 
+    <hr/>             
+    <!--Audio-->
+    <h3>Audio</h3>
+    <audio controls>
+        <source src=" " type=" ">
+        <source src=" " type=" ">
+    </audio>
+</section>     
+<section>
+    <h2>Inserción de videos</h2> 
+    <hr/>        
+    <!--Video-->
+    <h3>Video</h3>  
+    <video controls width="320">
+        <source src="https://youtu.be/5jrA8lZ-zkQ">
+        Tu navegador no soporta video.
+    </video>
+</section>    
+
+<section>
+    <h2>Inserción de iframes</h2> 
+    <hr/>     
+    <!--Inserción con iframe-->
+    <h3>Iframe</h3>
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/5jrA8lZ-zkQ?si=RUDkIyGlTkShgCiT" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+
+</section>
+
+<footer>
+    <p>Plantilla completa creada como ejemplo educativo.</p>
+</footer>
+
+</body>
+</html>

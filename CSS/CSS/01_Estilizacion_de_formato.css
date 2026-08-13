@@ -1,0 +1,125 @@
+body{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.734);
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.195);
+  margin-bottom: 1px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;  
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+
+.menu a:hover {
+    background-color: #555;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    list-style: none;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.submenu li a {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+.submenu li a:hover {
+    background-color: #555;
+}
+
+body{
+    padding: 5px;
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.195); 
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;  
+}
+
+section, article{
+  margin: 50px;
+  padding: 20px;  
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.195);     
+}
+
+
+
+footer{
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.195);  
+}
+
+
+.A1{
+   text-decoration: underline;
+   color: blueviolet;
+}
+
+.A2{
+   font-weight: bold;
+   color:aqua;
+}
+
+.A3{
+   letter-spacing: 5px;
+   color:brown;
+}
+
+.A4{
+   font-style: italic;
+   color:black
+}
+
+.B1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+
+}
+
+.B2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  
+}
